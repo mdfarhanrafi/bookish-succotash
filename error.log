@@ -1,0 +1,2 @@
+2024-07-03T15:57:58.991Z [right meow!] error: authuser is not defined
+2024-07-03T15:58:25.784Z [right meow!] error: Cannot read properties of null (reading 'user_id')

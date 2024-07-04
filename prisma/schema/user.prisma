@@ -1,0 +1,10 @@
+model User {
+  id      Int      @id @default(autoincrement())
+  email   String   @unique @db.VarChar(150)
+  name    String? @db.VarChar(150)
+  password String
+  profile String?
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+  News  News[]
+}
